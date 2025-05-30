@@ -1,0 +1,81 @@
+/* assets/style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body, html, [class*="css"] {
+    font-family: 'Outfit', sans-serif;
+    background: radial-gradient(circle at top left, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+/* === Common Components === */
+.hero-text {
+    font-size: 3rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(45deg, #00F260, #0575E6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sub-text {
+    font-size: 1.2rem;
+    color: #CCCCCC;
+}
+
+.cta-button {
+    background: linear-gradient(to right, #fc466b, #3f5efb);
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #3f5efb;
+}
+
+.step-box {
+    background: #1c1f26;
+    border-left: 4px solid #4A90E2;
+    padding: 1.2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.step-header {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 0.8rem;
+}
+
+.chat-box {
+    background: #12161f;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.user-bubble {
+    background: #0072ff;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 12px;
+    max-width: 80%;
+    margin-left: auto;
+}
+
+.assistant-bubble {
+    background: #2c3e50;
+    color: #e0e0e0;
+    padding: 0.75rem;
+    border-radius: 12px;
+    max-width: 80%;
+    margin-right: auto;
+}
