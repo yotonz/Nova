@@ -40,7 +40,7 @@ nova_studio/
 │   ├── InfoSec.py
 │   └── HowItWorks.py
 ├── utils/
-│   ├── auth.py               # (optional - not implemented yet)
+│   ├── auth.py               
 │   ├── azure_openai.py       # 🤖 GPT interaction
 │   ├── file_upload.py        # 📄 Reads PDF, DOCX, TXT
 │   └── vector_store.py       # 🔍 Azure Search context retriever
@@ -53,7 +53,7 @@ nova_studio/
 ### 1. Clone and Install Dependencies
 
 ```bash
-git clone https://github.com/yotonz/nova_studio.git
+git clone 
 cd nova_studio
 pip install -r requirements.txt
 ```
