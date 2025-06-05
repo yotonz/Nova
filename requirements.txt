@@ -11,6 +11,7 @@ PyMuPDF
 python-docx
 docx2txt
 tiktoken
+gunicorn
 
 # Specify compatible Python version (informational only)
 # Requires: Python >= 3.9
